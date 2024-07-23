@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cAQs6r_TEkiFTHhKUchmYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8cab6540-2267-4d9d-a534-2706d722a07e" CvTextArea="57, 515, 23, 12" CvType="AnyWordGroup" DesignTimeRectangle="58, 513, 46, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' role='text' /&gt;" Guid="b93f65a1-a9ee-4286-8ddb-c2e437215a37" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8cab6540-2267-4d9d-a534-2706d722a07e" CvTextArea="107, 515, 65, 12" CvTextArgument="LINHA VIVA" CvType="Text" DesignTimeRectangle="108, 513, 75, 22" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' name='LINHA VIVA' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' name='LINHA VIVA' role='text' check:text='LINHA VIVA' /&gt;" Guid="2d0ace32-bd02-4dce-abab-3d7fa362daea" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="241f8a66dce682e0b979b89e42157df2.png" xmlns="">0EWG4jpGCgkOn-mc_rrI1Ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

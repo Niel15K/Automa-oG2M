@@ -1,0 +1,315 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="993,3379" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="688,3314" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Count" />
+      <Variable x:TypeArguments="x:Int32" Name="Counter" />
+      <Variable x:TypeArguments="x:Int32" Name="MaximoINTER" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="626,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[Counter]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">0</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="626,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[MaximoINTER]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">27</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="626,2998" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1" MaxIterations="27">
+      <ui:InterruptibleDoWhile.Body>
+        <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="592,2861" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Untitled Document - Opera" sap:VirtualizedContainerService.HintSize="530,2773" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="830adc09-4cc6-4c15-afe4-b791408701db" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="496,2459" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTakeScreenshot DisplayName="Take Screenshot 'client'" FileName="Foto01.png" FileNameMode="Index" sap:VirtualizedContainerService.HintSize="434,265" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NTakeScreenshot.Target>
+                      <uix:TargetAnchorable ContentHash="wCULVQZXakuSh2mPf_Il5Q" DesignTimeRectangle="943, 103, 419, 559" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' role='graphic' /&gt;" Guid="44f6de51-c837-487e-88c0-f152bae7f8d6" InformativeScreenshot="c72905f854db3ab0ef1c9291f0802e2e.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/wY33CrSUMkCg30OA1CEeNw" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="825, 103, 655, 559" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' automationid='' /&gt;" Guid="69649b76-4a0e-4a4e-b7df-32d522c4a8bc" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTakeScreenshot.Target>
+                  </uix:NTakeScreenshot>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'push button''" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="FHwaMooUp0-vCykDoFZD4w" DesignTimeRectangle="1224, 775, 24, 24" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' role='push button' /&gt;" Guid="e42e6d4b-4895-409c-bd56-12ff53452ef4" InformativeScreenshot="cde2cd6bf7f85d17aa12476ba9245775.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/yIWbfGM070aVvpf2jxGlDA" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Arquivo''" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="p2x54vEh-UmTucuDmulkAA" DesignTimeRectangle="1105, 685, 95, 94" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='Row_1' /&gt;&lt;ctrl automationid='Cell_Arquivo' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='Row_1' /&gt;&lt;ctrl automationid='Cell_Arquivo' role='client' check:fulltext='Arquivo' /&gt;" Guid="219294bb-49be-4610-9148-11aef814f6bd" InformativeScreenshot="a58dc95acf98147c6eab93b017910848.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/3tou_3O3A0-T9Rf-D4Tb9w" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NTakeScreenshot DisplayName="Take Screenshot 'client'" FileName="Foto02.png" FileNameMode="Index" sap:VirtualizedContainerService.HintSize="434,265" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NTakeScreenshot.Target>
+                      <uix:TargetAnchorable ContentHash="vIUsrZ18tUKa8cKYR9wvSQ" DesignTimeRectangle="943, 103, 419, 559" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' role='graphic' /&gt;" Guid="0c479fe6-61f1-4605-a9f0-7b998fb7d294" InformativeScreenshot="7b039a8fd7a247439c5045198c690380.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/IouXoShzGEaFaQuL8B_TaA" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="825, 103, 655, 559" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' automationid='' /&gt;" Guid="93959da2-f15e-464e-9859-3c323d5bf490" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTakeScreenshot.Target>
+                  </uix:NTakeScreenshot>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'push button'(1)'" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="-fYhXsGW1ESOEl9fHVTa9g" DesignTimeRectangle="1224, 775, 24, 24" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' role='push button' /&gt;" Guid="9e5e9b65-84b2-4501-9f12-8d97e7684317" InformativeScreenshot="5a1d350fbc06400989d32332e77844d3.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/KMXPz14Qtk6hfx0NnEOz4A" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="993, 662, 320, 140" ElementType="List" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' role='list' /&gt;" Guid="f65aeb47-90ba-4911-b233-6c3d3e75b6e9" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Arquivo'(1)'" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="-5bRqaAPeEC8NrQufAmnwQ" DesignTimeRectangle="1105, 685, 95, 94" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='Cell_Arquivo' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='Cell_Arquivo' role='client' check:fulltext='Arquivo' /&gt;" Guid="04b8d1f3-1187-49d5-a0b2-12974e2244bd" InformativeScreenshot="083469a753059c098612ad2ec1bd19c7.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/BoLrm1PAU0mokpQpCxr7tQ" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="993, 662, 320, 140" ElementType="List" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' role='list' /&gt;" Guid="a5dc4698-5a6e-4aae-b3d1-b512a26682c9" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NTakeScreenshot DisplayName="Take Screenshot 'Take Screenshot 'graphic imgCurrent''" FileName="Foto03.png" FileNameMode="Index" sap:VirtualizedContainerService.HintSize="434,265" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_3" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NTakeScreenshot.Target>
+                      <uix:TargetAnchorable ContentHash="b2yLhep5X0-mCBdjFOalHw" DesignTimeRectangle="943, 103, 419, 559" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' role='graphic' /&gt;" Guid="a81339e5-252e-4827-a253-b8a4fb924bf4" InformativeScreenshot="204d95a56bf69fa273abefe25a281b27.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/mtZqQ6XngEadipsnrBTobQ" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NTakeScreenshot.Target>
+                  </uix:NTakeScreenshot>
+                  <uix:NGetText DisplayName="Get Text 'LINHA VIVA'" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable CVScreenId="8cab6540-2267-4d9d-a534-2706d722a07e" ContentHash="evA-S3C0TE2BroEruWznCw" CvTextArea="57, 463, 29, 12" CvType="AnyWordGroup" DesignTimeRectangle="58, 461, 46, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl automationid='TextBlockLite' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl automationid='TextBlockLite' role='text' /&gt;" Guid="99b328bd-d8fb-4128-935c-73897774cf5b" InformativeScreenshot="de4b27d0ca15870601998b8d369ddbee.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/sx68uiLN10mvMlLzsxA9UA" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="8cab6540-2267-4d9d-a534-2706d722a07e" CvTextArea="107, 463, 65, 12" CvTextArgument="LINHA VIVA" CvType="Text" DesignTimeRectangle="108, 461, 75, 22" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl automationid='TextBlockLite' name='LINHA VIVA' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl automationid='TextBlockLite' name='LINHA VIVA' role='text' check:text='LINHA VIVA' /&gt;" Guid="62404cf4-6122-42d5-8b83-6eda941f31db" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <uix:NGetText DisplayName="Get Text 'LINHA VIVA'" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable CVScreenId="8cab6540-2267-4d9d-a534-2706d722a07e" ContentHash="cAQs6r_TEkiFTHhKUchmYQ" CvTextArea="57, 515, 23, 12" CvType="AnyWordGroup" DesignTimeRectangle="58, 513, 46, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' role='text' /&gt;" Guid="b93f65a1-a9ee-4286-8ddb-c2e437215a37" InformativeScreenshot="241f8a66dce682e0b979b89e42157df2.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/FxZAfHMDtEGM-3GssKIW-w" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="8cab6540-2267-4d9d-a534-2706d722a07e" CvTextArea="107, 515, 65, 12" CvTextArgument="LINHA VIVA" CvType="Text" DesignTimeRectangle="108, 513, 75, 22" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' name='LINHA VIVA' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Anomalias' role='grouping' /&gt;&lt;ctrl automationid='Row_2' /&gt;&lt;ctrl automationid='TextBlockLite' name='LINHA VIVA' role='text' check:text='LINHA VIVA' /&gt;" Guid="2d0ace32-bd02-4dce-abab-3d7fa362daea" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <uix:NExtractData AppendResults="False" ContinueOnError="True" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='CV' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' ReferenceIdx='0' Name='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Codig...' ReferenceIdx='1' Name='Codig...'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Equipe' ReferenceIdx='2' Name='Equipe'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Observacao' ReferenceIdx='3' Name='Observacao'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="830adc09-4cc6-4c15-afe4-b791408701db" Version="V3">
+                    <uix:NExtractData.ExtractMetadata>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </uix:NExtractData.ExtractMetadata>
+                    <uix:NExtractData.Target>
+                      <uix:TargetAnchorable CVScreenId="5c066a8f-cc5f-418f-85fd-743155013f34" CvElementArea="42, 413, 742, 145" CvType="Table" DesignTimeRectangle="42, 413, 742, 145" DesignTimeScaleFactor="1" ElementType="Table" Guid="6b74013b-238d-46fa-8d86-31c2cc5ad20e" InformativeScreenshot="3097e7cc037ff8d8fe125cd3500161b6.png" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                    </uix:NExtractData.Target>
+                  </uix:NExtractData>
+                  <Assign sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[Counter]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[Counter + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" ContentHash="2gKl1bOK1US91h9uBgHitQ" FilePath="C:\Users\A1205449\AppData\Local\Apps\2.0\Q1DAM3YM.09J\ZGN6NXZR.42D\g2m...tion_0000000000000000_0008.0000_e5a5e7460196a2e2\g2m.view.ui.exe" IconBase64="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" InformativeScreenshot="4d85f758f63811511b3c7232f89d3533.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw" Selector="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" Title="Validar Inspeção" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:InterruptibleDoWhile.Body>
+      <ui:InterruptibleDoWhile.Condition>
+        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Counter &lt; MaximoINTER" />
+      </ui:InterruptibleDoWhile.Condition>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InterruptibleDoWhile>
+  </Sequence>
+</Activity>

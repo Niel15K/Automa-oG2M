@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Arquivo'(1)",
+  "Type": "Element",
+  "Id": "BoLrm1PAU0mokpQpCxr7tQ",
+  "Reference": "VjXOw2pahkyX8tXs6XQ0Og/BoLrm1PAU0mokpQpCxr7tQ",
+  "ParentRef": "VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw",
+  "Created": "2024-07-23T18:18:25.9635125Z",
+  "Updated": "2024-07-23T18:18:25.9635125Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
