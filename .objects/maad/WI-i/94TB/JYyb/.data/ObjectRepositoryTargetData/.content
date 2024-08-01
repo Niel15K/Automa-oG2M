@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gUkjN1kpSUGAzjB6SbHUsA" Reference="VjXOw2pahkyX8tXs6XQ0Og/JYybZI0rwU-1upgGqGhHdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="994, 103, 513, 685" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' /&gt;" FuzzyAccuracy="0.45" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='imgCurrent' role='graphic' /&gt;" Guid="d665b7f8-3d76-42bf-9092-8a6476cc34bb" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="825, 103, 851, 685" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' automationid='' /&gt;" Guid="764f0822-6e5a-45e9-82ca-5c0aff766b40" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e4628b80a3c120cf85079a916ee6cde3.png" xmlns="">06OY8KuX6oUCslX9XYsbnZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

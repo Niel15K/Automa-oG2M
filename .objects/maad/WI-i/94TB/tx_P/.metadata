@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'list EmployeesGrid'",
+  "Type": "Element",
+  "TaxonomyType": "Listbox",
+  "Id": "tx_PSlCc2EiIFWm2qh0MGA",
+  "Reference": "VjXOw2pahkyX8tXs6XQ0Og/tx_PSlCc2EiIFWm2qh0MGA",
+  "ParentRef": "VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw",
+  "Created": "2024-07-24T18:39:10.1289582Z",
+  "Updated": "2024-07-24T18:39:10.1289582Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

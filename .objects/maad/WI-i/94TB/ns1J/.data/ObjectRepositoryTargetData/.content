@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-h7TSSn9MUSwEuAZ4L3LBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="caae6780-f9c9-402b-99a4-5e519a086c67" CvElementArea="779, 126, 27, 27" CvType="Button" DesignTimeRectangle="783, 130, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl idx='2' role='graphic' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl automationid='' role='graphic' /&gt;" Guid="297ad992-bfd1-4935-9530-5f940fa81713" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="caae6780-f9c9-402b-99a4-5e519a086c67" CvTextArea="827, 89, 26, 12" CvTextArgument="Foto" CvType="Text" DesignTimeRectangle="819, 86, 667, 722" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' automationid='' check:text='Foto' /&gt;" Guid="58116e0d-52d3-4216-bd83-0b93d9f95b87" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3bd59638889dd74e724da0137fa4d2d5.png" xmlns="">0YDc5Ap6MbEWNU1bEsAo3eQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

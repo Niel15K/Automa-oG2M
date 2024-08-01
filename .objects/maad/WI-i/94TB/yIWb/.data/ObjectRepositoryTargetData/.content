@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="FHwaMooUp0-vCykDoFZD4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="0lBmwCgsNk6rEZRJOxupyg" Reference="VjXOw2pahkyX8tXs6XQ0Og/yIWbfGM070aVvpf2jxGlDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1224, 775, 24, 24" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' role='push button' /&gt;" Guid="e42e6d4b-4895-409c-bd56-12ff53452ef4" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="cde2cd6bf7f85d17aa12476ba9245775.png" xmlns="">0g1m6Rs_DeEa_8UHsaA8SBQ</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="cde2cd6bf7f85d17aa12476ba9245775.png" xmlns="">09zM0TInEZEWag6fwZFd9lQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="p2x54vEh-UmTucuDmulkAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="pbZXgoBwLE2fVhUE0LHG4A" Reference="VjXOw2pahkyX8tXs6XQ0Og/3tou_3O3A0-T9Rf-D4Tb9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1105, 685, 95, 94" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='Row_1' /&gt;&lt;ctrl automationid='Cell_Arquivo' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='Row_1' /&gt;&lt;ctrl automationid='Cell_Arquivo' role='client' check:fulltext='Arquivo' /&gt;" Guid="219294bb-49be-4610-9148-11aef814f6bd" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="a58dc95acf98147c6eab93b017910848.png" xmlns="">0wKqIQE4qj0GerDe38WbDyA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="993, 662, 320, 140" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' role='list' /&gt;" Guid="fb76430d-a27a-4c6e-bd57-10f518e2713f" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="825, 103, 655, 559" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='client' automationid='' /&gt;" Guid="9f96b3ad-3336-4ef4-8f4d-a2e36397d8f0" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f5c0fda874174ae79a472558e3590b8d.png" xmlns="">0yW33nCteHECiaP_nYDoVJw</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

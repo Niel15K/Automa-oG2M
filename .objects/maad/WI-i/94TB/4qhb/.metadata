@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Get Text 'Inspeção'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "4qhbgf2bKkGT-sh-JEh1fA",
+  "Reference": "VjXOw2pahkyX8tXs6XQ0Og/4qhbgf2bKkGT-sh-JEh1fA",
+  "ParentRef": "VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw",
+  "Created": "2024-07-23T19:22:12.9797417Z",
+  "Updated": "2024-07-23T19:22:12.9797417Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

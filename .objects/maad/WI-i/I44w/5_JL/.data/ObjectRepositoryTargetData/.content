@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KBYWKxaQKEKmssTGZzkwsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b8ff4348-040c-4552-86e5-4ac48498a4c3" CvElementArea="417, 857, 387, 21" CvType="InputBox" DesignTimeRectangle="419, 858, 384, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Posição' role='grouping' /&gt;&lt;ctrl idx='2' name='9' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Posição' role='grouping' /&gt;&lt;ctrl automationid='' role='text' /&gt;" Guid="c2c9a91a-2f72-4203-83ed-427ffbbdda1e" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b8ff4348-040c-4552-86e5-4ac48498a4c3" CvTextArea="437, 837, 30, 12" CvTextArgument="Total" CvType="Text" DesignTimeRectangle="439, 835, 28, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Posição' role='grouping' /&gt;&lt;ctrl name='Total' role='text' /&gt;&lt;ctrl name='Total' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Posição' role='grouping' /&gt;&lt;ctrl name='Total' role='text' /&gt;&lt;ctrl name='Total' role='text' automationid='' check:text='Total' /&gt;" Guid="328a46d5-af7d-4fcf-9d5f-14f779b1a327" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ccdffa1d2768ef533bfee32cfd29e918.png" xmlns="">0A3wpA2bwPk2Qjq2ibuBhCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

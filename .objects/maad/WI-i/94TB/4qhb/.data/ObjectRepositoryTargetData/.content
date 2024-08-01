@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aW9YmbPSa06vCau4rAvPlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ff23b856-a50c-424c-91c1-273f6db39954" CvElementArea="51, 128, 727, 23" CvType="InputBox" DesignTimeRectangle="52, 130, 724, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl name='Poste: 899614' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="0b94a1f8-be89-44b4-ae34-dc04c4731f66" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ff23b856-a50c-424c-91c1-273f6db39954" CvElementArea="348, 87, 67, 23" CvTextArea="355, 92, 54, 15" CvTextArgument="Operacao" CvType="Button" DesignTimeRectangle="356, 90, 52, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Operação' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Operação' role='text' automationid='' check:text='Operação' /&gt;" Guid="e6b2430a-467a-4779-a286-1c7161a817a9" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b4b20746c6d137045b70c2412a1b11cc.png" xmlns="">0EjoilgpQUE6RFLNNxAtkRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

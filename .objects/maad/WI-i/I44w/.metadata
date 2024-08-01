@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Validar Inspeção",
+  "Type": "Screen",
+  "Id": "I44wIrOijUyKDOYl-GU5Yw",
+  "Reference": "VjXOw2pahkyX8tXs6XQ0Og/I44wIrOijUyKDOYl-GU5Yw",
+  "ParentRef": "VjXOw2pahkyX8tXs6XQ0Og/WI-iqIJ4kUi87jFdPLKpnA",
+  "Created": "2024-07-24T20:28:38.2037017Z",
+  "Updated": "2024-07-24T20:28:38.2037017Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

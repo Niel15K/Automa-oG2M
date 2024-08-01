@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check App State 'g2m.view.ui.exe Validar'(1)",
+  "Type": "Element",
+  "Id": "pcqx3wIw4k6VsbHlaVl9zw",
+  "Reference": "VjXOw2pahkyX8tXs6XQ0Og/pcqx3wIw4k6VsbHlaVl9zw",
+  "ParentRef": "VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw",
+  "Created": "2024-07-24T18:38:36.2948067Z",
+  "Updated": "2024-07-24T18:38:36.2948067Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

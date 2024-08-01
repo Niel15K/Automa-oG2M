@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Foto'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "ns1Jg-hM5Uu-ZqXuGXkiag",
+  "Reference": "VjXOw2pahkyX8tXs6XQ0Og/ns1Jg-hM5Uu-ZqXuGXkiag",
+  "ParentRef": "VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw",
+  "Created": "2024-07-24T18:40:43.4419672Z",
+  "Updated": "2024-07-24T18:40:43.4419672Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

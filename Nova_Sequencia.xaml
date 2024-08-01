@@ -1,0 +1,221 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Nova_Sequencia" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="993,1856" sap2010:WorkflowViewState.IdRef="Nova_Sequencia_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Nova_Sequencia" sap:VirtualizedContainerService.HintSize="608,1791" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:Rectangle" Name="inicialPosition" />
+      <Variable x:TypeArguments="sd:Rectangle" Name="elementPosition" />
+      <Variable x:TypeArguments="sd:Rectangle" Name="posicao_final" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="546,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="sd:Rectangle">[posicao_final]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="sd:Rectangle">[New Rectangle(1290, 850, 24, 24)]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Untitled Document - Opera" sap:VirtualizedContainerService.HintSize="546,1589" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="aa36fbad-a883-449f-a133-d35f3ef5d63b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="512,1275" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetPosition ContinueOnError="{x:Null}" DisplayName="Inicial Position" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="GetPosition_3" Rectangle="[inicialPosition]">
+              <ui:GetPosition.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="91260f11-c1c0-4046-920f-386ccbebe480" InformativeScreenshot="1e696fa0f940ab8a942a0e746fc2b300" Selector="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='indicator' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:GetPosition.Target>
+            </ui:GetPosition>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,122" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[inicialPosition.ToString]" />
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="450,814" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="416,668" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button'" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aa36fbad-a883-449f-a133-d35f3ef5d63b" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="588da345-b5ea-4c66-a6b4-81eec27dc6f6" CvElementArea="1222, 774, 26, 25" CvType="ArrowButton" DesignTimeRectangle="1224, 775, 24, 24" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' role='push button' /&gt;" Guid="a3455064-4e05-4391-b555-1ab9a7f3c2c9" InformativeScreenshot="fff3ecf9b5e594dba2d05d856f46a18d.png" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="993, 662, 320, 140" ElementType="List" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' role='list' /&gt;" Guid="7da5897a-ae8d-4823-83f2-e63d36cdb0fa" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Arquivo'(1)'" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aa36fbad-a883-449f-a133-d35f3ef5d63b" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="EGxe92cfxUqF7CAsed11EA" DesignTimeRectangle="993, 662, 320, 140" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='EmployeesGrid' role='list' /&gt;" Guid="2d18b747-463b-4019-83b8-0f8535bc85d3" InformativeScreenshot="28b5d58f184f49e921931fbad77a8a7f.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/BoLrm1PAU0mokpQpCxr7tQ" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1224, 775, 24, 24" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl automationid='IncreaseRepeat' role='push button' /&gt;" Guid="0ddfac02-b62c-4827-8465-7cd11cac0597" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <ui:GetPosition ContinueOnError="{x:Null}" DisplayName="Get Position 'indicator'" sap:VirtualizedContainerService.HintSize="354,130" sap2010:WorkflowViewState.IdRef="GetPosition_7" Rectangle="[inicialPosition]">
+                    <ui:GetPosition.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a21f54ff-30b3-4610-af98-a2fa237eba9f" InformativeScreenshot="a8c25fc065c7114b024eb6dd6f657398" Selector="&lt;ctrl name='Foto' role='grouping' /&gt;&lt;ctrl role='indicator' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:GetPosition.Target>
+                  </ui:GetPosition>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Not posicao_final.Equals(inicialPosition)" />
+              </ui:InterruptibleWhile.Condition>
+            </ui:InterruptibleWhile>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,110" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;A posição está igual.&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="2gKl1bOK1US91h9uBgHitQ" FilePath="C:\Users\A1205449\AppData\Local\Apps\2.0\Q1DAM3YM.09J\ZGN6NXZR.42D\g2m...tion_0000000000000000_0008.0000_e5a5e7460196a2e2\g2m.view.ui.exe" IconBase64="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" InformativeScreenshot="4d85f758f63811511b3c7232f89d3533.png" Reference="VjXOw2pahkyX8tXs6XQ0Og/94TBe7iQEku1vQqwAyduyw" Selector="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" Title="Validar Inspeção" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
