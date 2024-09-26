@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="KaZwkwWttEaB2k5iRWsC3Q" Reference="VjXOw2pahkyX8tXs6XQ0Og/GHaCGcdkn0WJtN5_1YmUOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="rkDW-peRb0e9ZW48inbEJg" Reference="VjXOw2pahkyX8tXs6XQ0Og/GHaCGcdkn0WJtN5_1YmUOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="26a2740a-badd-41f2-a7d7-37cf6650341f" CvElementArea="779, 126, 27, 27" CvType="Button" DesignTimeRectangle="783, 130, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl idx='2' role='graphic' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Detalhes' role='page tab' /&gt;&lt;ctrl name='Inspeção' role='grouping' /&gt;&lt;ctrl automationid='' role='graphic' /&gt;" Guid="7145b5b9-19fb-4a16-8cf7-91bab83947af" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Validar Inspeção' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
@@ -7,7 +7,7 @@
           <Target CVScreenId="26a2740a-badd-41f2-a7d7-37cf6650341f" CvTextArea="827, 89, 26, 12" CvTextArgument="Foto" CvType="Text" DesignTimeRectangle="819, 86, 667, 722" FullSelectorArgument="&lt;ctrl name='Foto' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Foto' role='grouping' automationid='' check:text='Foto' /&gt;" Guid="d09e2678-826a-46d0-a76a-3d76e7dbb508" SearchSteps="Selector, FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="c15d654e84ca29662b3b10f99564e3c2.png" xmlns="">0cR6Pm7OJcUioIfJiINcvog</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="c15d654e84ca29662b3b10f99564e3c2.png" xmlns="">0BwpE8hZfKECfi5Jd99hTSA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
