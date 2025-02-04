@@ -1,15 +1,16 @@
 {
-  "name": "Processo de segundo teste",
+  "name": "Automação do G2M",
   "projectId": "eb0c5ae4-935e-41ac-ae2f-24607e2eb241",
-  "description": "Processo em Branco",
+  "description": "Processo que automatiza a coleta de dados do sistema G2M Man.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.4]",
     "UiPath.Mail.Activities": "[1.23.1]",
     "UiPath.MicrosoftOffice365.Activities": "[2.6.24]",
+    "UiPath.Python.Activities": "[1.9.0-alpha.5252821]",
     "UiPath.System.Activities": "[24.10.3]",
     "UiPath.Testing.Activities": "[24.10.0]",
-    "UiPath.UIAutomation.Activities": "[24.10.2]"
+    "UiPath.UIAutomation.Activities": "[24.10.8]"
   },
   "webServices": [],
   "entitiesStores": [],
