@@ -269,7 +269,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1092,11817" sap2010:WorkflowViewState.IdRef="Sequence_98">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1309,12556" sap2010:WorkflowViewState.IdRef="Sequence_98">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="Interações" />
       <Variable x:TypeArguments="x:Int32" Name="Contador" />
@@ -296,6 +296,7 @@
       <Variable x:TypeArguments="x:Int32" Name="Contagem" />
       <Variable x:TypeArguments="x:String" Name="Ordem" />
       <Variable x:TypeArguments="ss:SecureString" Name="SenhaSegura" />
+      <Variable x:TypeArguments="sd1:DataTable" Name="Ordens_in" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -303,29 +304,35 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="1092,114" sap2010:WorkflowViewState.IdRef="Assign_28">
+    <Assign DisplayName="Senha Segura" sap:VirtualizedContainerService.HintSize="1092,57" sap2010:WorkflowViewState.IdRef="Assign_28">
       <Assign.To>
         <OutArgument x:TypeArguments="ss:SecureString">[SenhaSegura]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="ss:SecureString">[New System.Net.NetworkCredential("", "Nat25@152@08").SecurePassword]</InArgument>
+        <InArgument x:TypeArguments="ss:SecureString">[New System.Net.NetworkCredential("", "Nat25@152@07").SecurePassword]</InArgument>
       </Assign.Value>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="1092,114" sap2010:WorkflowViewState.IdRef="Assign_27">
+    <Assign sap:VirtualizedContainerService.HintSize="1092,114" sap2010:WorkflowViewState.IdRef="Assign_29">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[Ordem]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">6000878763</InArgument>
+        <InArgument x:TypeArguments="x:String">6000992034</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ABERTURA DO G2M" sap:VirtualizedContainerService.HintSize="1092,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" OpenMode="IfNotOpen" ScopeGuid="45f6acca-af85-4e82-a623-be99469112d9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ABERTURA DO G2M" sap:VirtualizedContainerService.HintSize="1092,853" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" OpenMode="IfNotOpen" ScopeGuid="45f6acca-af85-4e82-a623-be99469112d9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="450,528" sap2010:WorkflowViewState.IdRef="Sequence_99">
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="450,530" sap2010:WorkflowViewState.IdRef="Sequence_99">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -342,7 +349,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Entrar'" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45f6acca-af85-4e82-a623-be99469112d9" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Entrar'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45f6acca-af85-4e82-a623-be99469112d9" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="4028129b-b12c-45a6-b519-c3b0943d0bab" CvElementArea="562, 195, 102, 26" CvTextArea="596, 202, 34, 12" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="563, 196, 100, 25" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='btnEntrar' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnEntrar' role='push button' check:text='Entrar' /&gt;" Guid="93fc4014-1d70-49ae-9b7e-f242169fc74c" InformativeScreenshot="e2f3907c5999b9294fd9d3063c43b972.png" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='G2M View/Mapa' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -371,7 +378,7 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -452,7 +459,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Abrindo ambiente" sap:VirtualizedContainerService.HintSize="1024,4900" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Timeout="200" Version="V4">
+            <uix:NCheckState DisplayName="Abrindo ambiente" sap:VirtualizedContainerService.HintSize="1024,4900" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Timeout="300" Version="V4">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Preparação de Ambiente" sap:VirtualizedContainerService.HintSize="520,4658" sap2010:WorkflowViewState.IdRef="Sequence_102">
                   <sap:WorkflowViewStateService.ViewState>
@@ -461,7 +468,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filtrar todos status'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Version="V4">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filtrar todos status'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Timeout="45" Version="V4">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="a69a1210-38d7-4314-8741-46b27e26b0ee" CvTextArea="1207, 109, 97, 12" CvTextArgument="Filtrar todos status" CvType="Text" DesignTimeRectangle="1184, 105, 200, 22" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Gerenciar Planejamento' role='page tab' /&gt;&lt;ctrl automationid='Status' /&gt;&lt;ctrl name='Microsoft.Windows.Controls.Ribbon.RibbonButton' role='list item' /&gt;&lt;ctrl automationid='btnTodos' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Gerenciar Planejamento' role='page tab' /&gt;&lt;ctrl automationid='Status' /&gt;&lt;ctrl name='Microsoft.Windows.Controls.Ribbon.RibbonButton' role='list item' /&gt;&lt;ctrl automationid='btnTodos' role='push button' check:text='Filtrar todos status' /&gt;" Guid="d77d4562-12d1-40c8-b6e5-0adbe1856939" InformativeScreenshot="d8bada8198bcb00e66854a474c7e9926.png" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Gerenciar Planejamento' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -482,7 +489,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="10" DisplayName="Type Into 'Ordem Insp.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Text="[Ordem]" Version="V4">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Ordem Insp.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Text="[Ordem]" Timeout="320" Version="V4">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable DesignTimeRectangle="151, 229, 80, 16" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl automationid='FilterCriterionTextBoxEditor' role='editable text' /&gt;" Guid="d4e8ec9f-dc53-42c6-b4d6-f2561eff487b" InformativeScreenshot="ef20ed7752d933ddb3f461d56cacb55d.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Gerenciar Planejamento' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -503,26 +510,30 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Nota Insp.'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Version="V4">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Nota Insp.'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="014e24b3-00ff-4162-be04-82543ab44a52" Timeout="50" Version="V4">
                     <uix:NClick.Target>
-                      <uix:TargetAnchorable CVScreenId="d2dac0c9-bc25-4b92-8bfe-9812cea54ab5" CvElementArea="41, 248, 16, 15" CvType="CheckBox" DesignTimeRectangle="43, 249, 26, 22" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl role='check box' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl role='check box' automationid='' /&gt;" Guid="a0a22c91-48f2-411f-9fdd-b74a7281432e" InformativeScreenshot="8934e9ecfd62f43c3c219d403dcc45f7.png" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable CVScreenId="b4bef886-3912-47f4-949c-43b9ab07add6" CvElementArea="42, 248, 16, 16" CvType="CheckBox" DesignTimeRectangle="43, 249, 26, 22" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl role='check box' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl role='check box' automationid='' /&gt;" Guid="8b9add79-e80c-4afc-a19d-eeeb75d19294" InformativeScreenshot="ad2b0593dc794d93ab9b67e57653fe68.png" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Gerenciar Planejamento' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
                           <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="d2dac0c9-bc25-4b92-8bfe-9812cea54ab5" CvTextArea="74, 210, 56, 15" CvTextArgument="Nota Insp." CvType="Text" DesignTimeRectangle="75, 208, 72, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='FixedHeader_1' /&gt;&lt;ctrl automationid='Cell_NotaInspecaoSAP' /&gt;&lt;ctrl automationid='TextBlockLite' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='FixedHeader_1' /&gt;&lt;ctrl automationid='Cell_NotaInspecaoSAP' /&gt;&lt;ctrl automationid='TextBlockLite' role='text' check:text='Nota Insp.' /&gt;" Guid="ddfd5829-1851-4eab-845a-540d2732afa6" SearchSteps="Selector, FuzzySelector, CV" />
+                            <uix:Target CVScreenId="b4bef886-3912-47f4-949c-43b9ab07add6" CvTextArea="72, 251, 47, 12" CvTextArgument="2685728" CvType="Text" DesignTimeRectangle="73, 249, 76, 22" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl automationid='TextBlockLite' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl automationid='TextBlockLite' role='text' check:text='2685728' /&gt;" Guid="aef252cd-2dbb-42f1-9127-e8e968878614" SearchSteps="Selector, FuzzySelector, CV" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
-                        <uix:TargetAnchorable.ScopeSelectorArgument>
-                          <InArgument x:TypeArguments="x:String">
-                            <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_1">&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Gerenciar Planejamento' /&gt;</Literal>
-                          </InArgument>
-                        </uix:TargetAnchorable.ScopeSelectorArgument>
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                     <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions DisplayName="Caixa de seleção 'CheckBox'" Mode="Appears">
                         <uix:VerifyExecutionOptions.Retry>
                           <InArgument x:TypeArguments="x:Boolean" />
                         </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable CVScreenId="b4bef886-3912-47f4-949c-43b9ab07add6" CvElementArea="42, 248, 16, 16" CvType="CheckBox" DesignTimeRectangle="43, 249, 26, 22" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl role='check box' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='Row_0' /&gt;&lt;ctrl role='check box' automationid='' /&gt;" Guid="7153fc88-0d83-4584-8f14-6f25a2ef543b" InformativeScreenshot="d9e9b5b4bd1be91deaa4f7a386c44774.png" ScopeSelectorArgument="&lt;wnd app='g2m.view.ui.exe' cls='HwndWrapper*' title='Gerenciar Planejamento' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="b4bef886-3912-47f4-949c-43b9ab07add6" CvElementArea="17, 227, 17, 18" CvType="Icon" DesignTimeRectangle="15, 225, 21, 22" ElementType="Icon" Guid="dfaa9b01-263c-4e51-b7c4-441663076d72" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAYAAAAvg9c4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHxSURBVEhL5dS9axphHAfw/D/+CenkkgopiCjR5YQG1M0zXUQFTR0MkvqSggqnICno4iIOIro4OejiIBdCp5ZiW0zMee936rfcU1paqe3RXKcO3+WGz+95+d5zAADb7RabzRbr9YZE19fQ9DVUTYeqalAUDbKiQpJVSJICUZQhiDJ4QSJZ8SK4lYgHTgC3EnDwT9DZbAYr8x21aqU/oQa4i36DNU0nMQYoqk4GKIpKhsjy10iyAlFS9q/0+voN8vk8MhcXSKVSiEajoGkaoVAIfr8fJydeOJ1OHB09hd1u37/SH9FSqYR+v4/xeIzhcIhOp4NGo0FSqVSQzWaRSCQQDAZhs9nMoQxTRa1WA8dxmM/nYFkWo9EI3W4XzWYT5XIZ6XQaDocDh4dPzKEct8LV1WsUi0VMp1NMJhMMBgO0Wi1Uq1VkMhm4XC4cHz/D7e1bc6iR5fKBbDOZTKLX66HdbqNer5NvHo8HFOXHu/cffn/7u6hx83f3S7LNWCxGzrNQKMDr9YKmI1gs7v9cqV+hRp1Y9gaBQAAMwyAej8Pn84HnRXM93Yd+/PSZoLlcDuFwGM9PT82Xfx+6WNwR1Dhbo0JnZy8ejxp/kYFGIhFS/PPzl9ahFEXB7Xbj8vKVNehfPyj/OWqAu+ij31MrwwsivgBAU389h9ygxAAAAABJRU5ErkJggg==" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:VerifyExecutionOptions.Target>
                         <uix:VerifyExecutionOptions.Timeout>
                           <InArgument x:TypeArguments="x:Double" />
                         </uix:VerifyExecutionOptions.Timeout>

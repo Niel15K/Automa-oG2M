@@ -2,7 +2,7 @@
   "name": "Automação do G2M",
   "projectId": "eb0c5ae4-935e-41ac-ae2f-24607e2eb241",
   "description": "Processo que automatiza a coleta de dados do sistema G2M Man.",
-  "main": "Main.xaml",
+  "main": "Sem_Supervisao(PiP_ativo).xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.4]",
     "UiPath.Mail.Activities": "[1.23.1]",
@@ -51,8 +51,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "6c397b4a-012c-460a-9b2b-4f6aa18e3023",
+      "filePath": "Sem_Supervisao(PiP_ativo).xaml",
+      "uniqueId": "837d0aa0-48d4-4ca4-8330-10b937f067ab",
       "input": [],
       "output": []
     }
